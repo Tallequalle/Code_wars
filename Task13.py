@@ -12,8 +12,8 @@ def gap(g, m, n):
         if k == 0:
             lst.append(i)
     for i in range(0,len(lst)-1):
-      if (lst[i + 1]-lst[i] == g):
-        lst2.append(lst[i])
-        lst2.append(lst[i + 1])
-        return(lst2)
+        if (lst[i + 1]-lst[i] == g):
+            lst2.append(lst[i])
+            lst2.append(lst[i + 1])
+            return(lst2)
 gap(2,100,110)
